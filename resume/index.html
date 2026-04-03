@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="resume_style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beliz Akbulut Resume</title>
+</head>
+<body>
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../contact/">Contact</a>
+        <a href="../projects/">Projects</a>
+        <a href="./">Resume</a>
+        <a href="https://github.com/bakbulut02" target="_blank">GitHub</a>
+      </nav>
+    <article>
+        <h1>Beliz D Akbulut</h1>
+        <section>
+            <h2>SUMMARY</h2> <hr />
+            <p>
+                Motivated data science undergraduate student at UC San Diego with experience building 
+                and evaluating machine learning models in Python. Possesses a strong foundation in statistics,
+                linear algebra, data cleaning and analysis, and has experience with data-driven projects
+            </p>
+        </section>
+        <section>
+            <h2>EDUCATION</h2> <hr />
+            <p><b>UNIVERSITY OF CALIFORNIA, SAN DIEGO, LA JOLLA, CALIFORNIA<br> Data Science
+                <time datetime="2024-09/2028-06">(Expected) Jun 2028</time></b></p>
+
+            <ul>
+                <li>3.79/4.00 GPA</li>
+                <li>Application of Data Science, Theoretical Foundations of Data Science I-II, Calculus 1-3, Linear Algebra</li>
+            </ul>
+
+        </section>
+        <section>
+            <h2>SKILLS</h2> <hr />
+            <ul>
+                <li>Python (pandas, scikit-learn, seaborn, beautiful soup, etc.)</li>
+                <li>Supervised Learning (linear and logistic regressions, decision trees, SVM)</li>
+                <li>SQL, MATLAB, Java, HTML, CSS</li>
+              </ul>
+        </section>
+
+        <section>
+            <h2>WORK EXPERIENCE</h2> <hr />
+            <p><b>San Diego Undergraduate Tech Conference, La Jolla, CA
+                <time datetime="2025-10/2026-04">Oct 2025 – Present</time>
+                <br>Event Coordinator Assistant</b></p>
+                <ul>
+                    <li>Coordinated check-in and event logistics for an academic conference with over 100 guests and 20 participants.</li>
+                    <li>Supported event setup and breakdown in collaboration with other organizers and presenters.</li>
+                    <li>Documented photo and video of the event for social media and archival purposes.</li>
+                </ul>
+
+            <p><b>Bluestone Restuarant, Timonium, MD
+                <time datetime="2024-01/2025-09">Jan 2024 – Sep 2025</time>
+                <br>Food Runner</b></p>
+                <ul>
+                    <li>Memorized and navigated service for over 100 tables, ensuring accurate and timely food delivery in a fast-paced environment.</li>
+                    <li>Garnished plates and assisted with back-of-house food prep.</li>
+                    <li>Coordinated with kitchen and front-of-house staff to distribute orders and maintain service flow.</li>
+                    <li>Set up and broke down event spaces and maintained cleanliness by bussing tables during and after shifts.</li>
+                </ul>
+        </section>
+        <section>
+            <h2>ACADEMIC PROJECTS</h2><hr />
+            <p><b>Spotify Song Popularity Prediction (ML) | Python, scikit-learn, pandas</b></p>
+                <ul>
+                    <li>Built and evaluated classification models to predict Spotify song popularity, addressing class imbalance through class-weighted
+                        logistic regression and ensemble methods.</li>
+                    <li>Improved recall for popular tracks from <b>12%</b> to <b>77%</b> by prioritizing minority-class performance and using ROC AUC for
+                        threshold-independent evaluation.</li>
+                    <li>Conducted feature importance analysis across linear and tree-based models, revealing artist-level attributes as the primary drivers
+                        of song popularity.</li>
+                </ul>
+
+            <p><b>Metrics to Medals: Predicting National Olympic Performance from Public Health Indices (ML)| Python, scikit-learn, pandas, statsmodels</b></p>
+                <ul>
+                    <li>Developed a forward-chaining cross-validation pipeline to predict Olympic medal counts from time-series data.</li>
+                    <li>Built predictive models using economic, demographic, and health features, achieving <b>R² = 0.65, RMSE = 9.19, MAE = 4.69</b>, and
+                        outperforming a baseline model (~6% lower RMSE, higher R²).</li>
+                    <li>Feature engineered GDP growth, population, urbanization, and prior medal counts, with results showing historical performance
+                        and population size as the strongest predictors.</li>
+                    <li>Conducted OLS regression with HC3 robust standard errors, identifying under-5 mortality as the only statistically significant health
+                        indicator (p < 0.01), while other health metrics showed no significant effect when controlling for confounders.</li>
+                </ul>
+
+            <p><b>Butter Together (ML) | Python, scikit-learn, pandas, NumPy</b></p>
+                <ul>
+                    <li>Built a <b>multi-class classification model (Random Forest)</b> to predict recipe ratings using <b>feature engineering on ingredients, tags,
+                        and recipe metadata</b>, improving F1 score from <b>0.568 to 0.576</b> via hyperparameter tuning.</li>
+                    <li>Engineered features, including <b>one-hot encoded ingredients and tags</b>, as well as recipe complexity metrics to capture patterns in
+                        user preferences.</li>
+                    <li>Tuned model performance using <b>cross-validated grid</b> search over key parameters <b>(max depth, estimators, split criteria)</b>, mitigating
+                        overfitting and improving generalization.</li>
+                    <li>Conducted a <b>fairness analysis using permutation testing (α = 0.05)</b>, finding <b>no statistically significant performance disparity (p =
+                        1.0)</b> between recipe groups based on ingredient count.</li>
+                </ul>
+        </section>
+    </article>
+</body>
+</html>
