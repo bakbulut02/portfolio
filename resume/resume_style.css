@@ -1,62 +1,64 @@
-/* Reset */
+/* Reset
 body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
 }
 
-/* Base */
+Base
 body {
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
-    background: #f5f7fb;
-    color: #1a1a1a;
+    font-family: 'Intero', system-ui, -apple-system, sans-serif;
+    background: oklch(98% 0.01 250);
+    color: oklch(20% 0.02 250);
     line-height: 1.6;
 }
-/* Dates */
+Dates
 time {
     float: right;
-    color: #666;
+    color: oklch(55% 0.01 250);
     font-size: 0.95rem;
 }
 
-/* Container */
+Container
 article {
     max-width: 900px;
     margin: 40px auto;
     padding: 30px;
-    background: white;
+    background: oklch(100% 0 0);
     border-radius: 16px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+
+    border: 1px solid oklch(85% 0.02 250 / 40%);
+    box-shadow: 0 10px 30px oklch(0% 0 0 / 6%);
 }
 
-/* Name */
+Name
 h1 {
     font-size: 2.4rem;
     font-weight: 700;
     margin-bottom: 10px;
+    color: oklch(55% 0.18 250);
 }
 
-/* Section headers */
 h2 {
     font-size: 1.2rem;
     margin-bottom: 10px;
-    color: #2563eb;
+    color: oklch(60% 0.2 280);
     letter-spacing: 0.5px;
 }
 
-/* Divider */
+Divider
 hr {
     border: none;
     height: 1px;
-    background: #e5e7eb;
+    background: oklch(85% 0.02 250 / 40%);
     margin-bottom: 15px;
 }
 
-/* Sections as cards */
+Sections as cards
 section {
     margin-top: 25px;
 }
 
-/* Lists */
+Lists
 ul {
     margin-left: 20px;
     margin-top: 8px;
@@ -64,15 +66,122 @@ ul {
 
 li {
     margin-bottom: 6px;
-    color: #333;
-}
-/* Paragraphs */
-p {
-    margin-bottom: 8px;
+    color: oklch(35% 0.02 250);
 }
 
-/* Bold titles */
+p {
+    margin-bottom: 8px;
+    color: oklch(30% 0.02 250);
+}
+
+Bold titles
 b {
     font-weight: 600;
     color: #111;
+}  */
+
+/* Reset */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* =========================
+   LIGHT MODE (JS: light)
+========================= */
+html[style*="color-scheme: light"] body {
+    background: oklch(98% 0.01 250);
+    color: oklch(20% 0.02 250);
+}
+
+html[style*="color-scheme: light"] article {
+    background: oklch(100% 0 0);
+    border: 1px solid oklch(85% 0.02 250 / 40%);
+    box-shadow: 0 10px 30px oklch(0% 0 0 / 6%);
+}
+
+/* =========================
+   DARK MODE (JS: dark)
+========================= */
+html[style*="color-scheme: dark"] body {
+    background: oklch(15% 0.02 250);
+    color: oklch(90% 0.01 250);
+}
+
+html[style*="color-scheme: dark"] article {
+    background: oklch(20% 0.02 250);
+    border: 1px solid oklch(70% 0.02 250 / 30%);
+    box-shadow: 0 10px 30px oklch(0% 0 0 / 40%);
+}
+
+/* =========================
+   AUTO MODE (JS: light dark)
+   THIS is what was missing
+========================= */
+@media (prefers-color-scheme: light) {
+    html[style*="color-scheme: light dark"] body {
+        background: oklch(98% 0.01 250);
+        color: oklch(20% 0.02 250);
+    }
+
+    html[style*="color-scheme: light dark"] article {
+        background: oklch(100% 0 0);
+        border: 1px solid oklch(85% 0.02 250 / 40%);
+        box-shadow: 0 10px 30px oklch(0% 0 0 / 6%);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    html[style*="color-scheme: light dark"] body {
+        background: oklch(15% 0.02 250);
+        color: oklch(90% 0.01 250);
+    }
+
+    html[style*="color-scheme: light dark"] article {
+        background: oklch(20% 0.02 250);
+        border: 1px solid oklch(70% 0.02 250 / 30%);
+        box-shadow: 0 10px 30px oklch(0% 0 0 / 40%);
+    }
+}
+
+/* =========================
+   shared styling
+========================= */
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+}
+
+article {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 16px;
+}
+
+h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+li, p {
+    margin-bottom: 6px;
+}
+
+time {
+    float: right;
+    font-size: 0.95rem;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    margin-bottom: 15px;
 }
