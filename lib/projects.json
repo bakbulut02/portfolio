@@ -3,32 +3,32 @@
         "title": "Butter Together",
         "year": "2026",
         "image": "https://raw.githubusercontent.com/bakbulut02/portfolio/main/images/butter.png",
-        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta modi autem, suscipit atque non praesentium earum, illo voluptatem odit quibusdam sit saepe eum illum ex aliquam numquam nemo sunt ipsa?"
+        "description": "An exploration of how various recipe features affect ratings, using a RandomForestClassifier with GridSearchCV to identify the most influential predictors."
     },
     {
         "title": "Metrics to Medals",
         "year": "2026",
         "image": "https://raw.githubusercontent.com/bakbulut02/portfolio/main/images/olympics.png",
-        "description": "Perferendis doloribus ratione non, laboriosam repellat necessitatibus at ullam quas unde excepturi vero id reprehenderit nostrum vitae exercitationem cumque consequatur dolore dolorum architecto nobis minus itaque voluptates facere! Cumque, vel?"
+        "description": "Predicts Olympic medal counts by country using economic, demographic, and health data (1976–2016). Regression models with forward-chaining cross-validation show that health indicators modestly improve predictions, with under-5 mortality as a key negative predictor."
     },
     {
         "title": "Sizing Up The Snack Aisle",
         "year": "2026",
         "image": "https://raw.githubusercontent.com/bakbulut02/portfolio/main/images/final.png",
-        "description": "Omnis, veritatis accusamus distinctio dolores eligendi et odio, commodi error temporibus corporis adipisci deleniti. Eligendi error hic quia voluptates sequi reprehenderit iure fuga corrupti, ad enim molestiae nesciunt veritatis. Inventore."
+        "description": "Visualizes the relationship between snack categories and food processing scores using sorted side-by-side box plots. Highlights differences in processing levels, with median-based ordering and a threshold line to distinguish highly processed foods."
     },
     {
         "title": "Spotify Song Popularity Prediction",
         "year" : "2025",
         "image": "https://raw.githubusercontent.com/bakbulut02/portfolio/main/images/song.png",
-        "description": "Inventore ea assumenda eveniet reprehenderit, expedita non adipisci, architecto aut a, tempora provident. Accusantium perspiciatis quisquam modi. Dolorum officia a, expedita aperiam nihil quam, quisquam veniam, harum eos cumque voluptatem!"
+        "description": "Predicts song popularity using Spotify artist and track-level features with logistic regression and Random Forest models. Addresses class imbalance through weighting, improving recall for popular tracks, and finds that artist popularity is the strongest predictor of success."
     },
 
     {
         "title": "Environmental Club App",
         "year": "2024",
         "image": "https://raw.githubusercontent.com/bakbulut02/portfolio/main/images/enviro.jpg",
-        "description": "Iure, adipisci error earum consequatur laboriosam esse asperiores nihil aliquid, veritatis sint rem reprehenderit mollitia, dolor voluptate doloremque ut quis velit assumenda saepe quibusdam placeat laudantium at! Blanditiis, dolores. Suscipit!"
+        "description": "Developed an iphone app for my local high school's environmental club. App included a events calendar, blog, and daily composting reminder."
     },
     {
         "title": "Amet excepturi perspiciatis voluptatem.",
