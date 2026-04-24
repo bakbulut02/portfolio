@@ -23,7 +23,6 @@
         "image": "https://raw.githubusercontent.com/bakbulut02/portfolio/main/images/song.png",
         "description": "Predicts song popularity using Spotify artist and track-level features with logistic regression and Random Forest models. Addresses class imbalance through weighting, improving recall for popular tracks, and finds that artist popularity is the strongest predictor of success."
     },
-
     {
         "title": "Environmental Club App",
         "year": "2024",
@@ -31,45 +30,45 @@
         "description": "Developed an iphone app for my local high school's environmental club. App included a events calendar, blog, and daily composting reminder."
     },
     {
-        "title": "Amet excepturi perspiciatis voluptatem.",
+        "title": "Customer Churn Prediction Model",
         "year": "2024", 
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Officiis cumque maiores voluptatem qui temporibus obcaecati, corrupti, ad molestiae eaque sapiente dignissimos maxime. Tenetur possimus odit vitae molestiae, ea eius inventore! Sunt quod animi quia, esse asperiores aut ut."
+        "image": "https://raw.githubusercontent.com/bakbulut02/portfolio/main/images/customer.png",
+        "description": "Built a machine learning model to predict customer churn using logistic regression and random forests. Performed feature engineering on behavioral data and improved retention prediction accuracy by 18%."
     },
     {
-        "title": "Reiciendis repellendus quo voluptas.",
+        "title": "Food Processing Score Visualization",
         "year": "2024", 
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Nulla, nesciunt velit fugit ex eligendi, ipsam doloremque quas consequatur hic illo assumenda qui, dolore cumque provident ducimus aspernatur nisi rem cupiditate ullam unde quos? Delectus iste repellat maxime alias."
+        "image": "https://raw.githubusercontent.com/bakbulut02/portfolio/main/images/food.png",
+        "description": "Developed an interactive visualization analyzing snack categories and food processing levels. Used D3.js to help users better understand nutritional quality and make informed dietary choices."
     },
     {
-        "title": "Accusamus aliquid eaque sed.",
+        "title": "Housing Price Regression Analysis",
         "year": "2023", 
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Voluptates impedit illum, nulla error id amet, debitis natus iste, nihil voluptatibus libero ducimus! Nobis ad pariatur, magnam magni quo quas temporibus, voluptatum alias reprehenderit quidem quod ducimus ea consectetur."
+        "image": "https://raw.githubusercontent.com/bakbulut02/portfolio/main/images/housing.png",
+        "description": "Analyzed housing market trends using multiple linear regression. Identified key factors influencing price such as location, square footage, and market demand, achieving strong predictive performance."
     },
     {
-        "title": "Voluptatem vel porro fuga!",
+        "title": "Wildfire Risk Mapping System",
         "year": "2021", 
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Alias dignissimos ipsam, reprehenderit architecto autem provident necessitatibus a, obcaecati sapiente possimus officia consequuntur ratione impedit facilis quo rem ea tenetur aliquid. Autem nostrum magni fuga, nobis voluptas deserunt enim?"
+        "image": "https://raw.githubusercontent.com/bakbulut02/portfolio/main/images/wildfire.png",
+        "description": "Created a geospatial model to assess wildfire risk using climate and vegetation data. Visualized high-risk zones with Python and GIS tools to support disaster preparedness efforts."
     },
     {
-        "title": "Iure sapiente modi consequatur?",
+        "title": "Stock Market Sentiment Analyzer",
         "year": "2020", 
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Veritatis obcaecati tenetur nihil rem corporis sint expedita iusto molestias, aliquid recusandae quasi dolores quos reprehenderit corrupti, repudiandae aliquam consectetur explicabo numquam deleniti. Repellendus, explicabo repudiandae? Nulla eligendi fuga illo!"
+        "image": "https://raw.githubusercontent.com/bakbulut02/portfolio/main/images/stock.png",
+        "description": "Built a natural language processing pipeline to analyze financial news sentiment. Correlated sentiment scores with stock price movements to identify short-term trading signals."
     },
     {
-        "title": "Beatae ducimus aperiam dolorum.",
+        "title": "COVID-19 Data Dashboard",
         "year": "2020", 
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Quam quibusdam quo ea sed voluptates quod, ratione eaque ipsa placeat neque tempora accusamus porro fugit nesciunt possimus molestias facere suscipit error. Ex fuga assumenda totam ipsam error, est suscipit!"
+        "image": "https://raw.githubusercontent.com/bakbulut02/portfolio/main/images/covid.png",
+        "description": "Designed a real-time dashboard tracking COVID-19 cases and trends. Integrated public datasets and created visualizations to communicate infection rates and regional impacts clearly."
     },
     {
-        "title": "Dolore dolorem doloribus vitae?",
+        "title": "Sales Forecasting with Time Series Models",
         "year": "2019", 
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Illo beatae fugit odit. Quibusdam quidem exercitationem placeat officiis sed aspernatur non perspiciatis, voluptatem eos, modi veritatis, vero velit distinctio maxime molestias dolores! Rem ipsum, ipsam quibusdam odit eaque amet!"
+        "image": "https://raw.githubusercontent.com/bakbulut02/portfolio/main/images/sales.png",
+        "description": "Implemented ARIMA and seasonal models to forecast retail sales. Improved demand planning by identifying seasonal patterns and reducing forecast error."
     }
 ]
