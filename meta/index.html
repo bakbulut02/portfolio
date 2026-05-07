@@ -17,4 +17,15 @@
     <h2><br>Commits by time of day</h2>
     <div id="chart"></div>
     <script src="main.js" type="module"></script>
+    <dl id="commit-tooltip" class="info tooltip" hidden>
+        <dt>Commit</dt>
+        <dd>
+            <a href="" id="commit-link" target="_blank"></a>
+        </dd>
+
+        <dt>Date</dt>
+        <dd id="commit-date"></dd>
+    </dl>
+    <p id="selection-count">No commits selected</p>
+    <dl id="language-breakdown" class="stats"></dl>
  </body>

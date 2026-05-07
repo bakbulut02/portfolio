@@ -231,3 +231,76 @@ section:last-of-type {
   .gridLines {
     color: #ccc
   }
+
+  dl.info {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background-color:white;
+    border-radius: 8px; 
+    column-gap: 12px;
+    row-gap: 4px;
+    padding: 10px 14px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 12px rgba(0,0,0, 0.15);
+    font-size: 0.9rem;
+
+    transition-duration: 500ms;
+    transition-property: opacity, visibility;
+  }
+
+dl.info[hidden]:not(:hover, :focus-within) {
+    opacity: 0;
+    visibility: hidden;
+}
+
+dl.info dt,
+dl.info dd {
+    margin: 0;
+}
+
+dl.info dt {
+    color: #777;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+dl.info dd{
+    font-weight: bold;
+    color: #222;
+}
+
+.tooltip {
+    position: fixed;
+    top: 1em;
+    left: 1em;
+}
+
+circle {
+    transition: 200ms;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+circle:hover {
+    transform: scale(1.5);
+}
+
+
+@keyframes marching-ants {
+    to {
+      stroke-dashoffset: -8; /* 5 + 3 */
+    }
+  }
+  
+  .selection {
+    fill-opacity: 0.1;
+    stroke: black;
+    stroke-opacity: 0.7;
+    stroke-dasharray: 5 3;
+    animation: marching-ants 2s linear infinite;
+  }
+
+  circle.selected {
+    fill: #ff6b6b;
+  }
