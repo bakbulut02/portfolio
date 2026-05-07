@@ -200,3 +200,34 @@ section:last-of-type {
     background: #f9f9f9;
   }
   
+  .stats {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    gap: 1rem 2rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #f9f9f9;
+  }
+  
+  .stats dt {
+    grid-row: 1;
+    font-weight: 400;
+    color: gray;
+  }
+  
+  .stats dd {
+    grid-row: 2;
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  .stats #summary {
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+
+  .gridLines {
+    color: #ccc
+  }
