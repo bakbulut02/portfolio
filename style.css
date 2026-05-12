@@ -304,3 +304,17 @@ circle:hover {
   circle.selected {
     fill: #ff6b6b;
   }
+
+  .project-link {
+    color: var(--color-accent);
+    text-decoration: none;
+    font-weight: 600;
+    display: inline;
+    margin-top: -0.5em;
+}
+
+/* override your global hover rule */
+.project-link:hover {
+  border-bottom: 0.2em solid var(--color-accent);
+  background: none;
+}

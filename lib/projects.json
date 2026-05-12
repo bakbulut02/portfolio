@@ -1,9 +1,18 @@
 [
     {
+        "title": "Gone Biking?",
+        "year": 2026,
+        "image": "https://raw.githubusercontent.com/bakbulut02/portfolio/main/images/biking.png",
+        "description": "Interactive map visualization of bike traffic in the Boston Area during different times of the day.",
+        "link": "https://bakbulut02.github.io/gone-biking-/"
+        
+    },
+    {
         "title": "Butter Together",
         "year": "2026",
         "image": "https://raw.githubusercontent.com/bakbulut02/portfolio/main/images/butter.png",
-        "description": "An exploration of how various recipe features affect ratings, using a RandomForestClassifier with GridSearchCV to identify the most influential predictors."
+        "description": "An exploration of how various recipe features affect ratings, using a RandomForestClassifier with GridSearchCV to identify the most influential predictors.",
+        "link": "https://bakbulut02.github.io/Butter-Together/"
     },
     {
         "title": "Metrics to Medals",
